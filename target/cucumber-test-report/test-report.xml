@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.785993">
+<testcase classname="aaaa" name="1. User can buy MacBook Pro" time="33.785993">
+<system-out><![CDATA[Given Useer already in AppleBrandStore page.................................passed
+When User click on Mac link.................................................passed
+And User click on MacBook Pro link..........................................passed
+Then User land on Apple MacBook Pro page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

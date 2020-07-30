@@ -1,0 +1,7 @@
+Feature: aaaa
+
+  Scenario: 1. User can buy MacBook Pro         [90m# src/test/resources/features/AppleBrandStore.feature:4[0m
+    [32mGiven [0m[32mUseer already in AppleBrandStore page[0m [90m# AppleBrandStorePageStep.useer_already_in_AppleBrandStore_page()[0m
+    [32mWhen [0m[32mUser click on Mac link[0m                 [90m# AppleBrandStorePageStep.user_click_on_Mac_link()[0m
+    [32mAnd [0m[32mUser click on MacBook Pro link[0m          [90m# AppleBrandStorePageStep.user_click_on_MacBook_Pro_link()[0m
+    [32mThen [0m[32mUser land on Apple MacBook Pro page[0m    [90m# AppleBrandStorePageStep.user_land_on_Apple_MacBook_Pro_page()[0m

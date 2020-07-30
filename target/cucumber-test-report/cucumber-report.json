@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1780453539,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "1. User can buy MacBook Pro",
+        "description": "",
+        "id": "aaaa;1.-user-can-buy-macbook-pro",
+        "after": [
+          {
+            "result": {
+              "duration": 182293437,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9045555582,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Useer already in AppleBrandStore page",
+            "match": {
+              "location": "AppleBrandStorePageStep.useer_already_in_AppleBrandStore_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5188233945,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Mac link",
+            "match": {
+              "location": "AppleBrandStorePageStep.user_click_on_Mac_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12554185710,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on MacBook Pro link",
+            "match": {
+              "location": "AppleBrandStorePageStep.user_click_on_MacBook_Pro_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5027603810,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User land on Apple MacBook Pro page",
+            "match": {
+              "location": "AppleBrandStorePageStep.user_land_on_Apple_MacBook_Pro_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "aaaa",
+    "description": "",
+    "id": "aaaa",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AppleBrandStore.feature",
+    "tags": []
+  }
+]
